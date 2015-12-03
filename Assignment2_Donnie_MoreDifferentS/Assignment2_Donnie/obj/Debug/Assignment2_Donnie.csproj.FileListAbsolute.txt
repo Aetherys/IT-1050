@@ -3,5 +3,7 @@ C:\Users\Donald\Desktop\Assignment2_Donnie\Assignment2_Donnie\bin\Debug\Assignme
 C:\Users\Donald\Desktop\Assignment2_Donnie\Assignment2_Donnie\bin\Debug\Assignment2_Donnie.pdb
 C:\Users\Donald\Desktop\Assignment2_Donnie\Assignment2_Donnie\obj\Debug\Assignment2_Donnie.exe
 C:\Users\Donald\Desktop\Assignment2_Donnie\Assignment2_Donnie\obj\Debug\Assignment2_Donnie.pdb
-C:\Users\Donald\Desktop\IT-1050\Assignment2_Donnie\Assignment2_Donnie\obj\Debug\Assignment2_Donnie.exe
-C:\Users\Donald\Desktop\IT-1050\Assignment2_Donnie\Assignment2_Donnie\obj\Debug\Assignment2_Donnie.pdb
+C:\Users\Donald\Desktop\IT-1050\Assignment2_Donnie_MoreDifferentS\Assignment2_Donnie\bin\Debug\Assignment2_Donnie.exe
+C:\Users\Donald\Desktop\IT-1050\Assignment2_Donnie_MoreDifferentS\Assignment2_Donnie\bin\Debug\Assignment2_Donnie.pdb
+C:\Users\Donald\Desktop\IT-1050\Assignment2_Donnie_MoreDifferentS\Assignment2_Donnie\obj\Debug\Assignment2_Donnie.exe
+C:\Users\Donald\Desktop\IT-1050\Assignment2_Donnie_MoreDifferentS\Assignment2_Donnie\obj\Debug\Assignment2_Donnie.pdb
