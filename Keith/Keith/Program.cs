@@ -40,10 +40,12 @@ namespace Keith
                     pid = process.Id;
                     Console.WriteLine("Ok, " + filename + " started with PID: " + pid);
                 }
+
                 catch (InvalidOperationException)
                 {
                     started = false;
                 }
+
                 catch (Exception e)
                 {
                     started = false;
