@@ -43,9 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="TrmUtil.cs" />
+    <Compile Include="ConcessionStand.cs" />
+    <Compile Include="MyTTY.cs" />
+    <Compile Include="Order.cs" />
     <Compile Include="Plan.cs" />
-    <Compile Include="Planner.cs" />
     <Compile Include="TheaterData.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

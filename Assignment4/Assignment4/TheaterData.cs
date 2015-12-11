@@ -48,12 +48,7 @@ namespace Assignment4
             "The Bourne Redundancy starring Matt Damon.",
             "something you're only watching for that tight 14-year-old female lead.",
             "BATTLEFIELD EARTH!\nYou know, because leverage."
-        };
-
-
-        
-
-        
+        };      
         
     }
 }

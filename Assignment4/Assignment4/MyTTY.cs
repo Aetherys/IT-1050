@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Assignment4
 {
-    public static class TrmUtil
+    public static class MyTTY
     {
         public static void Resize() { Console.SetWindowSize(Console.WindowWidth * 2, Console.WindowHeight * 2); }
 

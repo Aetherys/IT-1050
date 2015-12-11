@@ -9,13 +9,13 @@ namespace Assignment4
     {
         static void Main(string[] args)
         {
-            TrmUtil.Resize();
+            MyTTY.Resize();
             Plan plan = new Plan();
-            TrmUtil.ReadBool("Would you like to go to the movies? ");
-            plan.GetShowInfo();
-            plan.CreateParty();
-            plan.BoxOffice();
-            plan.ConcessionStand();
+            //MyTTY.ReadBool("Would you like to go to the movies? ");
+            //plan.GetShowInfo();
+            //plan.CreateParty();
+            //plan.BoxOffice();
+            Order order = ConcessionStand.Create();
 
             
 
