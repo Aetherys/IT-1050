@@ -1,0 +1,4 @@
+c:\users\vandi\documents\visual studio 2010\Projects\FinalExam\FinalExam\bin\Debug\FinalExam.exe
+c:\users\vandi\documents\visual studio 2010\Projects\FinalExam\FinalExam\bin\Debug\FinalExam.pdb
+c:\users\vandi\documents\visual studio 2010\Projects\FinalExam\FinalExam\obj\x86\Debug\FinalExam.exe
+c:\users\vandi\documents\visual studio 2010\Projects\FinalExam\FinalExam\obj\x86\Debug\FinalExam.pdb
