@@ -1,21 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-namespace FinalExam
+﻿namespace FinalExam
 {
     class Elevator
     {
         private double MaxWeight;
         private Passenger[] Occupants;
 
-        public static Elevator Create(int maxOccupants, double maxWeight)
+        public Elevator(int maxOccupants, double maxWeight)
         {
-            Elevator elevator = new Elevator();
-            elevator.Occupants = new Passenger[maxOccupants];
-            elevator.MaxWeight = maxWeight;
-            return elevator;
+            this.Occupants = new Passenger[maxOccupants];
+            this.MaxWeight = maxWeight;
         }
 
         public void AddOccupant(Passenger passenger, int index)
@@ -35,12 +28,9 @@ namespace FinalExam
             return currentWeight;
         }
 
-
         public bool IsOverMaxCapacity()
         {
-            return (this.GetCurrentWeight() > MaxWeight) ? true : false;
-
+            return this.GetCurrentWeight() > MaxWeight;
         }
-
     }
 }

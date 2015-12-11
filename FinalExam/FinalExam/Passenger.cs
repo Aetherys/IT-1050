@@ -1,34 +1,24 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-namespace FinalExam
+﻿namespace FinalExam
 {
     class Passenger
     {
         private string Name;
         private double Weight;
 
-        public static Passenger Create(string name, double weight)
+        public Passenger(string name, double weight)
         {
-            Passenger passenger = new Passenger();
-            passenger.Name = name;
-            passenger.Weight = weight;
-            return passenger;
+            this.Name = name;
+            this.Weight = weight;
         }
-
 
         public string GetName()
         {
             return this.Name;
         }
 
-
         public double GetWeight()
         {
             return this.Weight;
         }
-
     }
 }

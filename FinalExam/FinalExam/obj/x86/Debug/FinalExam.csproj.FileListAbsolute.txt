@@ -2,3 +2,8 @@ c:\users\vandi\documents\visual studio 2010\Projects\FinalExam\FinalExam\bin\Deb
 c:\users\vandi\documents\visual studio 2010\Projects\FinalExam\FinalExam\bin\Debug\FinalExam.pdb
 c:\users\vandi\documents\visual studio 2010\Projects\FinalExam\FinalExam\obj\x86\Debug\FinalExam.exe
 c:\users\vandi\documents\visual studio 2010\Projects\FinalExam\FinalExam\obj\x86\Debug\FinalExam.pdb
+C:\Users\Donald\Desktop\IT-1050\FinalExam\FinalExam\obj\x86\Debug\FinalExam.exe
+C:\Users\Donald\Desktop\IT-1050\FinalExam\FinalExam\obj\x86\Debug\FinalExam.pdb
+C:\Users\Donald\Desktop\IT-1050\FinalExam\FinalExam\bin\Debug\FinalExam.exe
+C:\Users\Donald\Desktop\IT-1050\FinalExam\FinalExam\bin\Debug\FinalExam.pdb
+C:\Users\Donald\Desktop\IT-1050\FinalExam\FinalExam\obj\x86\Debug\FinalExam.csprojResolveAssemblyReference.cache
