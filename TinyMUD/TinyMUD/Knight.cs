@@ -5,7 +5,7 @@ using System.Text;
 
 namespace TinyMUD
 {
-    class Knight:Warrior
+    class Knight : Warrior
     {
 
     }

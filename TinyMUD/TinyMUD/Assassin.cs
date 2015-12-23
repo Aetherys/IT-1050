@@ -5,7 +5,7 @@ using System.Text;
 
 namespace TinyMUD
 {
-    class Assassin
+    class Assassin : Rogue
     {
     }
 }

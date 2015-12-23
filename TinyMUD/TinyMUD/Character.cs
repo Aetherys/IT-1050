@@ -13,10 +13,8 @@ namespace TinyMUD
         public double HP;
         public string ClassName;
 
-        public Character(string _name, bool _sex)
+        public Character()
         {
-            Name = _name;
-            Sex = _sex;
             Level = 1;
             Exp = 0;
             ExpForLvl = 100;
@@ -41,6 +39,7 @@ namespace TinyMUD
             MyTTY.Show("You have " + HP + "(" + MaxHP + ") hitpoints.\n");
             MyTTY.Show("You have " + Exp + "experience points.\n");
             MyTTY.Show("You need " + ExpToLvl + " to reach the next level.\n");
+
         }
     }
 }

@@ -9,7 +9,6 @@ namespace TinyMUD
     {
         static void Main(string[] args)
         {
-            
 
         }
     }

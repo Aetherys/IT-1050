@@ -12,7 +12,6 @@ namespace TinyMUD
         {
             Character player;
             int archetype;
-            int special;
             string wrmc = "";
             
 
@@ -44,7 +43,7 @@ namespace TinyMUD
                     break;
             }
 
-            special = ReadClass(archetype, wrmc);
+            player = ReadClass(archetype, wrmc);
             
         }
 
@@ -53,9 +52,11 @@ namespace TinyMUD
             MyTTY.Show("Stuff.");
         }
 
+
         public Character ReadClass(int archetype, string wrmc)
         {
-            int special;
+            int choice;
+            Character player;
 
             MyTTY.Show("The following " + wrmc + " are available to you:\n\n");
             
@@ -82,13 +83,24 @@ namespace TinyMUD
                     break;
             }
 
-            special = MyTTY.ReadIntLimit("\nEnter the number of your selection: ", 2);
+            choice = MyTTY.ReadIntLimit("\nEnter the number of your selection: ", 2);
 
             switch (archetype)
             {
                 case 1:
-                    Character player = (special < 2) ? new Knight() : new Berserker();
-
+                    if (choice < 2) player = new Knight(); else player = new Berserker();
+                    break;
+                case 2:
+                    if (choice < 2) player = new Hunter(); else player = new Assassin();
+                    break;
+                case 3:
+                    if (choice < 2) player = new Sorcerer(); else player = new Warlock();
+                    break;
+                case 4:
+                    if (choice < 2) player = new Priest(); else player = new Druid();
+                    break;
+                default:
+                    player = null;
             }
 
             return player;

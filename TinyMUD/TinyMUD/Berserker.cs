@@ -5,7 +5,7 @@ using System.Text;
 
 namespace TinyMUD
 {
-    class Berserker:Warrior
+    class Berserker : Warrior
     {
     }
 }

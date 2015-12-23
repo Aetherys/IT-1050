@@ -5,7 +5,7 @@ using System.Text;
 
 namespace TinyMUD
 {
-    public abstract class Mage
+    public abstract class Mage : Character
     {
     }
 }
